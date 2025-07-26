@@ -10,7 +10,7 @@
      this.reset();
    } else {
 
-     formMsg.style.color = "red";
+     // formMsg.style.color = "red";
     //  formMsg.textContent = "Please fill out all fields.";
    
  };
