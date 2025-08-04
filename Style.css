@@ -591,8 +591,14 @@ nav a:hover{
 }
 
 
-@media   screen and (max-width: 400px) {
-   
+@media   screen and (max-width: 343px) {
+  nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}  
 }
 @media   screen and (max-width: 500px) {
   header  {
