@@ -1,3 +1,15 @@
+//nav-bar
+const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+
+
+
+
 
    const name = document.getElementById("name").value.trim();
    const email = document.getElementById("email").value.trim();
